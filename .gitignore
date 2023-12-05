@@ -160,5 +160,7 @@ cython_debug/
 .idea/
 /fileTests
 
+client_secrets.json
+list.csv
+list.txt
 token.json
-credentials.json

@@ -1,2 +1,0 @@
-from gdrive_duplicates_cleaner import google_authentication
-from gdrive_duplicates_cleaner import constants
