@@ -160,7 +160,7 @@ def move_duplicates(source_folder, target_folder):
                 for file in files:
                     if duplicate_name["filename"] == file:
                         duplicate_file_path = os.path.join(root, file)
-                        shutil.move(duplicate_file_path, target_folder + ".dupe")
+                        shutil.move(duplicate_file_path, target_folder + f".dupe{c}")
                         print(f"Moved {duplicate_file_path} to {target_folder}.dupe{c}")
                         c += 1
     else:
